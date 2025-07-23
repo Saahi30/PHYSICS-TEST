@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+.next/
+out/
+dist/
+
+# Dependency directories
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Environment variables
+.env
+.env.*
+
+# VSCode
+.vscode/
+
+# IDEs
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Misc
+*.local 
