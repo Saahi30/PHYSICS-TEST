@@ -73,7 +73,7 @@ export default function Results() {
       });
 
       setAnalysis(analysisData);
-      setScore(analysisData.filter(a => a.isCorrect).length);
+      setScore(analysisData.filter((a: QuestionAnalysis) => a.isCorrect).length);
     }
   }, []);
 
